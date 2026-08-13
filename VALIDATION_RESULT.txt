@@ -1,0 +1,1 @@
+Site check passed: 15 HTML pages checked; people metadata paths valid.

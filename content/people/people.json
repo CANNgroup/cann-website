@@ -1,0 +1,221 @@
+[
+  {
+    "id": "sean",
+    "slug": "sean-froudist-walsh",
+    "name": "Seán Froudist-Walsh",
+    "short_name": "Seán",
+    "role": "Principal Investigator",
+    "status": "current",
+    "initials": "SF",
+    "profile": "people/sean-froudist-walsh.html",
+    "photo": null,
+    "themes": [
+      "cog-perception",
+      "cog-wm",
+      "cog-decision",
+      "cog-planning",
+      "anat-principles",
+      "anat-acute",
+      "anat-chronic",
+      "anat-evolution",
+      "nn-trained",
+      "nn-biophysical"
+    ]
+  },
+  {
+    "id": "eva",
+    "slug": "eva-sevenster",
+    "name": "Eva Sevenster",
+    "short_name": "Eva",
+    "role": "PhD student",
+    "status": "current",
+    "initials": "ES",
+    "profile": "people/eva-sevenster.html",
+    "photo": null,
+    "themes": [
+      "cog-wm",
+      "anat-principles",
+      "anat-acute",
+      "nn-trained"
+    ]
+  },
+  {
+    "id": "ash",
+    "slug": "aswathi-thrivikraman",
+    "name": "Aswathi Thrivikraman",
+    "short_name": "Ash",
+    "role": "PhD student",
+    "status": "current",
+    "initials": "AT",
+    "profile": "people/aswathi-thrivikraman.html",
+    "photo": "assets/aswathi-thrivikraman.jpg",
+    "github": "https://github.com/KTAswathi",
+    "linkedin": "https://www.linkedin.com/in/aswathi-thrivikraman-5298a9119/",
+    "themes": [
+      "cog-wm",
+      "cog-planning",
+      "anat-principles",
+      "nn-trained"
+    ]
+  },
+  {
+    "id": "tsvet",
+    "slug": "tsvetoslav-ivanov",
+    "name": "Tsvetoslav Ivanov",
+    "short_name": "Tsvet",
+    "role": "PhD student",
+    "status": "current",
+    "initials": "TI",
+    "profile": "people/tsvetoslav-ivanov.html",
+    "photo": "assets/tsvetoslav.jpg",
+    "themes": [
+      "cog-perception",
+      "cog-wm",
+      "anat-acute",
+      "anat-chronic",
+      "anat-evolution",
+      "nn-biophysical"
+    ]
+  },
+  {
+    "id": "xiaohe",
+    "slug": "xiaohe-yu",
+    "name": "Xiaohe Yu",
+    "short_name": "Xiaohe",
+    "role": "PhD student",
+    "status": "current",
+    "initials": "XY",
+    "profile": "people/xiaohe-yu.html",
+    "photo": null,
+    "themes": [
+      "cog-decision",
+      "anat-acute",
+      "nn-biophysical"
+    ]
+  },
+  {
+    "id": "teo",
+    "slug": "teo-fantacci",
+    "name": "Teo Fantacci",
+    "short_name": "Teo",
+    "role": "Visiting PhD student",
+    "status": "visitor",
+    "initials": "TF",
+    "profile": "people/teo-fantacci.html",
+    "photo": "assets/teo-fantacci.jpg",
+    "themes": [
+      "cog-wm",
+      "cog-decision",
+      "nn-biophysical"
+    ]
+  },
+  {
+    "id": "julian",
+    "slug": "julian-kedys",
+    "name": "Julian Kedys",
+    "short_name": "Julian",
+    "role": "Research Assistant",
+    "status": "incoming",
+    "initials": "JK",
+    "profile": "people/julian-kedys.html",
+    "photo": null,
+    "themes": [
+      "anat-acute",
+      "nn-biophysical"
+    ]
+  },
+  {
+    "id": "yufan",
+    "slug": "yufan-wang",
+    "name": "Yufan Wang",
+    "short_name": "Yufan",
+    "role": "Postdoctoral Researcher",
+    "status": "incoming",
+    "initials": "YW",
+    "profile": "people/yufan-wang.html",
+    "photo": null,
+    "themes": [
+      "anat-principles",
+      "anat-evolution"
+    ]
+  },
+  {
+    "id": "james",
+    "slug": "james-mcallister",
+    "name": "James McAllister",
+    "short_name": "James",
+    "role": "Postdoctoral Researcher",
+    "status": "incoming",
+    "initials": "JM",
+    "profile": "people/james-mcallister.html",
+    "photo": null,
+    "themes": [
+      "anat-evolution",
+      "nn-trained"
+    ]
+  },
+  {
+    "id": "naomi",
+    "slug": "naomi-curnow",
+    "name": "Naomi Curnow",
+    "short_name": "Naomi",
+    "role": "PhD student",
+    "status": "incoming",
+    "initials": "NC",
+    "profile": "people/naomi-curnow.html",
+    "photo": null,
+    "themes": [
+      "cog-decision",
+      "anat-evolution",
+      "nn-trained"
+    ]
+  },
+  {
+    "id": "ulysse",
+    "slug": "ulysse-klatzmann",
+    "name": "Ulysse Klatzmann",
+    "short_name": "Ulysse",
+    "role": "PhD alumnus",
+    "status": "alumnus",
+    "initials": "UK",
+    "profile": null,
+    "photo": null,
+    "themes": [
+      "cog-perception",
+      "anat-principles",
+      "nn-biophysical"
+    ]
+  },
+  {
+    "id": "rahul",
+    "slug": "rahul-gupta",
+    "name": "Rahul Gupta",
+    "short_name": "Rahul",
+    "role": "Postdoc alumnus",
+    "status": "alumnus",
+    "initials": "RG",
+    "profile": null,
+    "photo": null,
+    "themes": [
+      "cog-perception",
+      "anat-acute",
+      "anat-evolution"
+    ]
+  },
+  {
+    "id": "dabal",
+    "slug": "dabal-pedamonti",
+    "name": "Dabal Pedamonti",
+    "short_name": "Dabal",
+    "role": "Postdoc alumnus",
+    "status": "alumnus",
+    "initials": "DP",
+    "profile": null,
+    "photo": null,
+    "themes": [
+      "cog-perception",
+      "anat-acute",
+      "nn-trained"
+    ]
+  }
+]
