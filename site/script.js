@@ -108,7 +108,7 @@ document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
   const personPub=[
     ['person-ulysse','pub-klatzmann2025'],['person-rahul','pub-purple2025'],
     ['person-tsvet','pub-joyce2025'],
-    ['person-sean','pub-klatzmann2025'],['person-sean','pub-purple2025'],['person-sean','pub-receptors2023'],['person-sean','pub-dopamine2021'],['person-sean','pub-ding2024'],['person-sean','pub-joyce2025']
+    ['person-sean','pub-klatzmann2025'],['person-sean','pub-purple2025'],['person-sean','pub-receptors2023'],['person-sean','pub-dopamine2021'],['person-sean','pub-ding2024'],['person-sean','pub-joyce2025'],
     ['person-ulysse','pub-klatzmann-visual2025'],['person-sean','pub-klatzmann-visual2025'],
     ['person-sean','pub-magrou2024'],
     ['person-rahul','pub-joyce2025']
