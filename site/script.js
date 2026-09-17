@@ -81,7 +81,7 @@ document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
     ['cog-decision','person-sean'],['cog-decision','person-xiaohe'],['cog-decision','person-naomi'],['cog-decision','person-teo'],
     ['cog-planning','person-sean'],['cog-planning','person-ash'],
 
-    ['anat-principles','person-sean'],['anat-principles','person-eva'],['anat-principles','person-ash'],['anat-principles','person-yufan'],['anat-principles','person-ulysse'],
+    ['anat-principles','person-sean'],['anat-principles','person-tsvet'],['anat-principles','person-eva'],['anat-principles','person-ash'],['anat-principles','person-yufan'],['anat-principles','person-ulysse'],
     ['anat-acute','person-sean'],['anat-acute','person-eva'],['anat-acute','person-tsvet'],['anat-acute','person-xiaohe'],['anat-acute','person-julian'],['anat-acute','person-rahul'],['anat-acute','person-dabal'],
     ['anat-chronic','person-sean'],['anat-chronic','person-tsvet'],
     ['anat-evolution','person-sean'],['anat-evolution','person-tsvet'],['anat-evolution','person-yufan'],['anat-evolution','person-james'],['anat-evolution','person-naomi'],['anat-evolution','person-rahul'],
