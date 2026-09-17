@@ -1,0 +1,27 @@
+/* Seminar pages share the site's typography, palette, header and footer. */
+.seminar-page .page-hero h1 { max-width: 1050px; font-size: clamp(40px, 5.4vw, 74px); line-height: 1.08; }
+.seminar-page .breadcrumb { line-height: 1.8; }
+.series-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.series-card { padding: clamp(24px, 3vw, 42px); border: 1px solid var(--line); background: rgba(255,255,255,.4); display: flex; flex-direction: column; }
+.series-card h2 { font-size: 34px; line-height: 1.15; }
+.series-card h2 a { text-decoration: none; }
+.series-card h2 a:hover { text-decoration: underline; text-underline-offset: 5px; }
+.series-card p:not(.page-kicker), .series-section p { font-size: 15px; line-height: 1.8; color: var(--muted); }
+.series-card .series-organisers { padding-top: 12px; border-top: 1px solid var(--line); }
+.series-card > .text-link { margin-top: auto; padding-top: 22px; }
+.series-section { max-width: 880px; margin-bottom: 48px; padding-bottom: 36px; border-bottom: 1px solid var(--line); }
+.series-section h2 { font-size: 34px; }
+.seminar-event { margin-top: 24px; padding: 28px; background: rgba(255,255,255,.5); border: 1px solid var(--line); }
+.seminar-event h3 { font-size: 29px; line-height: 1.25; margin: 12px 0; }
+.seminar-event .page-kicker { font-size: 11px; }
+.seminar-event .event-venue { font-size: 13px; }
+.seminar-event details { margin-top: 24px; }
+.seminar-event summary { cursor: pointer; font-size: 14px; line-height: 1.6; }
+.series-return { font-size: 14px; }
+.seminar-page a:focus-visible, .seminar-page summary:focus-visible { outline: 2px solid var(--ink); outline-offset: 5px; }
+@media (max-width: 760px) {
+  .series-grid { grid-template-columns: 1fr; }
+  .seminar-page .page-hero { padding-top: 55px; padding-bottom: 48px; }
+  .seminar-page .page-content { padding-top: 45px; padding-bottom: 60px; }
+  .seminar-event { padding: 22px; }
+}

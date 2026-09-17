@@ -1784,3 +1784,8 @@
 .person-photo--ash img{
   object-position:center center;
 }
+
+/* Keep the expanded navigation within the desktop header. */
+@media (min-width: 1281px) {
+  .site-header .nav { gap: 18px; }
+}
