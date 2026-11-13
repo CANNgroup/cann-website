@@ -108,7 +108,7 @@ document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
     ['anat-evolution','pub-magrou2024'],['cog-wm','pub-magrou2024']
   ];
   const personPub=[
-    ['person-sean','pub-review2026'],
+    ['person-sean','pub-review2026'],['person-tsvet','pub-review2026'],['person-teo','pub-review2026'],
     ['person-ulysse','pub-klatzmann2025'],['person-rahul','pub-purple2025'],
     ['person-tsvet','pub-joyce2025'],
     ['person-sean','pub-klatzmann2025'],['person-sean','pub-purple2025'],['person-sean','pub-receptors2023'],['person-sean','pub-dopamine2021'],['person-sean','pub-ding2024'],['person-sean','pub-joyce2025'],
