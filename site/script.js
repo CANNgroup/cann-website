@@ -40,14 +40,15 @@ document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
     'person-ash':['Person','Aswathi Thrivikraman','PhD student working on anatomically constrained RNNs, planning and internally generated cognition.'],
     'person-tsvet':['Person','Tsvetoslav Ivanov','PhD student modelling working-memory deficits, hallucinations, neuromodulation and cross-species circuit mechanisms.'],
     'person-xiaohe':['Person','Xiaohe Yu','PhD student modelling stress, uncertainty, neuromodulation and decision-making.'],
-    'person-teo':['Person','Teo Fantacci','Visiting PhD student studying the dynamics and geometry of neural activity using latent-state models, dimensionality reduction and biophysical modelling.'],
-    'person-julian':['Person','Julian Kedys','Incoming Research Assistant developing biophysical models of serotonin and dopamine effects on fMRI signals.'],
-    'person-yufan':['Person','Yufan Wang','Incoming postdoctoral researcher working on cortical anatomy and cross-species neuroscience.'],
-    'person-james':['Person','James McAllister','Incoming postdoctoral researcher developing Cortically Embedded RNNs for cross-species modelling.'],
-    'person-naomi':['Person','Naomi Curnow','Incoming PhD student developing cross-species Cortically Embedded RNNs of decision-making.'],
+    'person-teo':['Alumnus','Teo Fantacci','Former visiting PhD student, currently a PhD student at Scuola Sant’Anna, studying the dynamics and geometry of neural activity using latent-state models, dimensionality reduction and biophysical modelling.'],
+    'person-julian':['Person','Julian Kedys','Research Assistant developing biophysical models of serotonin and dopamine effects on fMRI signals.'],
+    'person-yufan':['Person','Yufan Wang','postdoctoral researcher working on cortical anatomy and cross-species neuroscience.'],
+    'person-james':['Person','James McAllister','postdoctoral researcher developing Cortically Embedded RNNs for cross-species modelling.'],
+    'person-naomi':['Person','Naomi Curnow','PhD student developing cross-species Cortically Embedded RNNs of decision-making.'],
     'person-ulysse':['Alumnus','Ulysse Klatzmann','CANN PhD alumnus whose work developed a connectome-based biophysical account of conscious access in macaque cortex.'],
     'person-rahul':['Alumnus','Rahul Gupta','Former CANN postdoc whose work examined psilocybin and altered prefrontal cortical dynamics, and who also contributed to cross-species work on dopamine D1 receptors and distractibility.'],
     'person-dabal':['Alumnus','Dabal Pedamonti','Former short-term CANN postdoc who worked on NeuroAI and modelling the effects of psilocybin.'],
+    'pub-review2026':['Publication','Biological Psychiatry · 2026 · Review','Mechanistic Computational Models of Cognition Across Scales and Species'],
     'pub-klatzmann2025':['Publication','Klatzmann et al. · Cell Reports · 2025','A dynamic bifurcation mechanism explains cortex-wide neural correlates of conscious access.'],
     'pub-purple2025':['Publication','Purple et al. · Molecular Psychiatry · 2025','Short- and long-term modulation of rat prefrontal cortical activity following single doses of psilocybin.'],
     'pub-receptors2023':['Publication','Froudist-Walsh et al. · Nature Neuroscience · 2023','Gradients of neurotransmitter receptor expression in the macaque cortex.'],
@@ -91,6 +92,7 @@ document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
   ];
 
   const pubs=[
+    ['cog-wm','pub-review2026'],['cog-perception','pub-review2026'],['cog-planning','pub-review2026'],['anat-evolution','pub-review2026'],['nn-biophysical','pub-review2026'],
     ['cog-perception','pub-klatzmann2025'],['nn-biophysical','pub-klatzmann2025'],
     ['cog-perception','pub-purple2025'],['anat-acute','pub-purple2025'],
 
@@ -106,6 +108,7 @@ document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
     ['anat-evolution','pub-magrou2024'],['cog-wm','pub-magrou2024']
   ];
   const personPub=[
+    ['person-sean','pub-review2026'],
     ['person-ulysse','pub-klatzmann2025'],['person-rahul','pub-purple2025'],
     ['person-tsvet','pub-joyce2025'],
     ['person-sean','pub-klatzmann2025'],['person-sean','pub-purple2025'],['person-sean','pub-receptors2023'],['person-sean','pub-dopamine2021'],['person-sean','pub-ding2024'],['person-sean','pub-joyce2025'],
