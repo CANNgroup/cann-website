@@ -1789,3 +1789,12 @@
 @media (min-width: 1281px) {
   .site-header .nav { gap: 18px; }
 }
+
+/* Applicant guidance within the existing Join CANN section. */
+.join-guidance{max-width:850px;margin:42px 0;color:#d9e4eb;font-size:14px;line-height:1.8}
+.join-guidance h3{font-family:var(--serif);font-size:32px;font-weight:400;color:white;margin:0 0 18px}
+.join-guidance h4{font-size:17px;color:white;margin:28px 0 12px}
+.join-guidance p{margin:0 0 16px}
+.join-guidance ul{padding-left:22px;margin:0 0 18px}
+.join-guidance li{padding-left:5px;margin:8px 0}
+.funding-first a{color:inherit;text-decoration:underline;text-underline-offset:3px}

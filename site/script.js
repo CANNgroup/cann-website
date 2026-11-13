@@ -35,19 +35,19 @@ document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
     'anat-evolution':['Anatomy','Evolutionary changes · cross-species','Species differences in cortical organisation used to understand how evolutionary anatomical change alters neural computation and cognition.'],
     'nn-trained':['Neural networks','Trained neural networks','Task-trained models, including Cortically Embedded RNNs, used to discover how biological constraints shape learned solutions.'],
     'nn-biophysical':['Neural networks','Biophysical models','Mechanistic large-scale models grounded in synaptic, receptor, cellular and connectomic data.'],
-    'person-sean':['Person','Seán Froudist-Walsh','Principal Investigator, working across cognition, anatomy and both trained and biophysical neural-network models.'],
-    'person-eva':['Person','Eva Sevenster','PhD student working on NeuroAI / CERNNs and neuromodulation.'],
-    'person-ash':['Person','Aswathi Thrivikraman','PhD student working on anatomically constrained RNNs, planning and internally generated cognition.'],
-    'person-tsvet':['Person','Tsvetoslav Ivanov','PhD student modelling working-memory deficits, hallucinations, neuromodulation and cross-species circuit mechanisms.'],
-    'person-xiaohe':['Person','Xiaohe Yu','PhD student modelling stress, uncertainty, neuromodulation and decision-making.'],
-    'person-teo':['Alumnus','Teo Fantacci','Former visiting PhD student, currently a PhD student at Scuola Sant’Anna, studying the dynamics and geometry of neural activity using latent-state models, dimensionality reduction and biophysical modelling.'],
-    'person-julian':['Person','Julian Kedys','Research Assistant developing biophysical models of serotonin and dopamine effects on fMRI signals.'],
-    'person-yufan':['Person','Yufan Wang','postdoctoral researcher working on cortical anatomy and cross-species neuroscience.'],
-    'person-james':['Person','James McAllister','postdoctoral researcher developing Cortically Embedded RNNs for cross-species modelling.'],
-    'person-naomi':['Person','Naomi Curnow','PhD student developing cross-species Cortically Embedded RNNs of decision-making.'],
-    'person-ulysse':['Alumnus','Ulysse Klatzmann','CANN PhD alumnus whose work developed a connectome-based biophysical account of conscious access in macaque cortex.'],
-    'person-rahul':['Alumnus','Rahul Gupta','Former CANN postdoc whose work examined psilocybin and altered prefrontal cortical dynamics, and who also contributed to cross-species work on dopamine D1 receptors and distractibility.'],
-    'person-dabal':['Alumnus','Dabal Pedamonti','Former short-term CANN postdoc who worked on NeuroAI and modelling the effects of psilocybin.'],
+    'person-sean':['Current member','Seán Froudist-Walsh','Principal Investigator, working across cognition, anatomy and both trained and biophysical neural-network models.'],
+    'person-eva':['Current member','Eva Sevenster','PhD student working on NeuroAI / CERNNs and neuromodulation.'],
+    'person-ash':['Current member','Aswathi Thrivikraman','PhD student working on anatomically constrained RNNs, planning and internally generated cognition.'],
+    'person-tsvet':['Current member','Tsvetoslav Ivanov','PhD student modelling working-memory deficits, hallucinations, neuromodulation and cross-species circuit mechanisms.'],
+    'person-xiaohe':['Current member','Xiaohe Yu','PhD student modelling stress, uncertainty, neuromodulation and decision-making.'],
+    'person-teo':['Alumni','Teo Fantacci','Former visiting PhD student, currently a PhD student at Scuola Sant’Anna, studying the dynamics and geometry of neural activity using latent-state models, dimensionality reduction and biophysical modelling.'],
+    'person-julian':['Current member','Julian Kedys','Research Assistant developing biophysical models of serotonin and dopamine effects on fMRI signals.'],
+    'person-yufan':['Current member','Yufan Wang','postdoctoral researcher working on cortical anatomy and cross-species neuroscience.'],
+    'person-james':['Current member','James McAllister','postdoctoral researcher developing Cortically Embedded RNNs for cross-species modelling.'],
+    'person-naomi':['Current member','Naomi Curnow','PhD student developing cross-species Cortically Embedded RNNs of decision-making.'],
+    'person-ulysse':['Alumni','Ulysse Klatzmann','CANN PhD alumnus whose work developed a connectome-based biophysical account of conscious access in macaque cortex.'],
+    'person-rahul':['Alumni','Rahul Gupta','Former CANN postdoc whose work examined psilocybin and altered prefrontal cortical dynamics, and who also contributed to cross-species work on dopamine D1 receptors and distractibility.'],
+    'person-dabal':['Alumni','Dabal Pedamonti','Former short-term CANN postdoc who worked on NeuroAI and modelling the effects of psilocybin.'],
     'pub-review2026':['Publication','Biological Psychiatry · 2026 · Review','Mechanistic Computational Models of Cognition Across Scales and Species'],
     'pub-klatzmann2025':['Publication','Klatzmann et al. · Cell Reports · 2025','A dynamic bifurcation mechanism explains cortex-wide neural correlates of conscious access.'],
     'pub-purple2025':['Publication','Purple et al. · Molecular Psychiatry · 2025','Short- and long-term modulation of rat prefrontal cortical activity following single doses of psilocybin.'],
@@ -132,7 +132,7 @@ document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
         pubs.forEach(([d,p])=>{if(d===x)s.add(p)});
       });
     }
-    if(type==='Person'||type==='Alumnus'||type==='Publication'){
+    if(type==='Current member'||type==='Alumni'||type==='Publication'){
       [...s].forEach(x=>pillarDomain.forEach(([p,d])=>{if(d===x)s.add(p)}));
     }
     return s;
@@ -154,7 +154,7 @@ document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
       if(N[id]?.[0]==='Anatomy'||id==='pillar-anatomy')color='#b68148';
       if(N[id]?.[0]==='Neural networks'||id==='pillar-networks')color='#43848a';
       if(N[id]?.[0]==='Publication')color='#a87943';
-      if(['Person','Alumnus'].includes(N[id]?.[0]))color='#31856b';
+      if(['Current member','Alumni'].includes(N[id]?.[0]))color='#31856b';
       path.setAttribute('fill','none');path.setAttribute('stroke',color);
       path.setAttribute('stroke-width',(a===id||b===id)?'2':'1.05');
       path.setAttribute('stroke-opacity',(a===id||b===id)?'.72':'.2');
