@@ -135,7 +135,7 @@
     "status": "current",
     "initials": "YW",
     "profile": "people/yufan-wang.html",
-    "photo": null,
+    "photo": "assets/yufan-wang.png",
     "themes": [
       "anat-principles",
       "anat-evolution"
@@ -150,11 +150,12 @@
     "status": "current",
     "initials": "JM",
     "profile": "people/james-mcallister.html",
-    "photo": null,
+    "photo": "assets/james-mcallister.png",
     "themes": [
       "anat-evolution",
       "nn-trained"
-    ]
+    ],
+    "linkedin": "https://www.linkedin.com/in/james-mcallister-80a5bb136/"
   },
   {
     "id": "naomi",
